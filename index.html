@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
+</head>
+
+  <meta charset="UTF-8">
+  <title>Ultimate List of Large Numbers</title>
+
+
+  <style>
+  @font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+  font-style: italic, oblique;
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+  font-weight: bold;
+  font-style: italic, oblique;
+}
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Computer Modern Serif", serif;
+      background: radial-gradient(circle at top, #1b1b14, #000);
+      color: #0000ff;
+      min-height: 100vh;
+      padding: 40px;
+      
+  opacity: 0;
+  animation: fadeIn 2s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+    }
+
+    /* HEADER */
+header {
+    text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      text-shadow: 0 0 15px rgba(0, 0, 255, 0.8);
+    }
+
+    header p {
+      margin-top: 10px;
+      opacity: 0.8;
+    }
+    
+    .updates-box {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+
+  background: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 255, 0.25);
+  border-radius: 10px;
+
+  padding: 12px 14px;
+  width: 180px;
+
+  font-family: "Computer Modern", normal;
+  color: #0000ff;
+
+  backdrop-filter: blur(6px);
+  z-index: 999;
+}
+    
+    .social-icons a {
+  font-size: 22px;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+     /* GRID */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+    
+    /* SECTION */
+   .section {
+      max-width: 1200px;
+     margin: 0 auto;
+      padding: 40px 20px;
+  }
+  .section h2 {
+      letter-spacing: 1px;
+    text-align: center;
+     opacity: 0.95;
+  }
+    
+    /* CARD */
+   .card {
+      width: 100%;
+      box-sizing: border-box;
+      background: rgba(0, 0, 48, 0.65);
+      border-radius: 18px;
+      padding: 24px;
+      text-decoration: none;
+      color: inherit;
+      box-shadow:
+        0 0 20px rgba(0, 0, 80, 0.15),
+        inset 0 0 10px rgba(0, 0, 64, 0.05);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow:
+        0 0 40px rgba(0, 0, 111, 0.35),
+        inset 0 0 15px rgba(0, 0, 80, 0.08);
+    }
+
+    .card h2 {
+      margin-bottom: 8px;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      opacity: 0.85;
+      line-height: 1.4;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      opacity: 0.5;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+<center><h1 id="ULLN 1">ULTIMATE LIST OF LARGE NUMBERS</h1></center>
+<script src="numbers.js"></script>
+</body>
+</html>
