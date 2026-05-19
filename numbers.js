@@ -1,6 +1,7 @@
 document.body.innerHTML += '<p id="N">N represents a positive integer</p>';
-const List = [["1×1×1 Cube, 1-layer Pyraminx, Megaminx etc. (already solved)", "Any 1×1×N cuboid (trivial solution)", "2-layer Pyraminx", "1×2×2 Cuboid", "Square-(-1) (identical to 1×2×3)", "1×2×3 Cuboid"], 
-             ["Ivy Cube", "Pyraminx Duo"]];
+const List = [["1×1×1 Cube, 1-layer Pyraminx, Dodecahedron etc. (already solved)", "Any 1×1×N cuboid (trivial solution)", "2-layer Pyraminx", "1×2×2 Cuboid", "Square-(-1) (identical to 1×2×3)", "1×2×3 Cuboid", "MoYu Unicorn Cube & Pyramid"], 
+             ["Ivy Cube", "Pyraminx Duo", "O2 Cube", "Skewb", "Clock", "Helicopter Cube"], ["Pyraminx", "Redi Cube", "1×3×3 Cuboid", "2×2×2 Cube", "2×2×3 Cuboid", "2×3×3 Cuboid", "Kilominx", "Square-0", "Curvy Copter (not jumbled)"], 
+             ["3×3×4 Cuboid", "3×3×3 Cube", "5-Axis Pentahedra"]];
 const List2 = ["Effortless", "Very Easy", "Easy", "Medium", "Hard", "Very Hard", "Challenging", "Intense", "Insane", 
 "Extreme", "Extreme+", "Nightmare", "Nightmare+", "Hell", "Hell+", "Easy Demon", "Medium Demon", "Hard Demon", "Very Hard Demon", "Challenging Demon",
 "Intense Demon", "Insane Demon", "Extreme Demon"]
