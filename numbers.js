@@ -4,7 +4,7 @@ const List = [["1×1×1 Cube, 1-layer Pyraminx, Dodecahedron etc. (already solve
              ["3×3×4 Cuboid", "3×3×3 Cube", "5-Axis Pentahedra"]];
 const List2 = ["Effortless", "Very Easy", "Easy", "Medium", "Hard", "Very Hard", "Challenging", "Intense", "Insane", 
 "Extreme", "Extreme+", "Nightmare", "Nightmare+", "Hell", "Hell+", "Easy Demon", "Medium Demon", "Hard Demon", "Very Hard Demon", "Challenging Demon",
-"Intense Demon", "Insane Demon", "Extreme Demon"]
+"Intense Demon", "Insane Demon", "Extreme Demon"];
 var x = [0, 0];
 var y = 0;
 for(x[1] = 0; x[1] < List.length; x[1]++) {
