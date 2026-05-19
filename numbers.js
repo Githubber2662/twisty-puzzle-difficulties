@@ -6,6 +6,7 @@ const List2 = ["Effortless", "Very Easy", "Easy", "Medium", "Hard", "Very Hard",
 var x = [0, 0];
 var y = 0;
 for(x[1] = 0; x[1] < List.length; x++) {
+  document.body.innerHTML += '<p id=`Difficulty${x[1]}`>'+(x[1]+1).toString()+'. '+List2[x[1]].toString()+'</p>';
   for(x[0] = 0; x[0] < List[x[1]].length; x++) {
    document.body.innerHTML += '<p id=`Puzzle${y}`>'+(x[0]+1).toString()+'. '+List[x[1]][x[0]].toString()+'</p>';
    y++;
