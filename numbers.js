@@ -16,4 +16,4 @@ for(x[1] = 0; x[1] < List.length; x[1]++) {
    y++;
 }
 }
-document.body.innerHTML += '<p id=`Total`>'+'Total Entries: '+y.toString()'</p>';
+document.body.innerHTML += '<p id=`Total`>'+'Total Entries: '+y.toString()+'</p>';
